@@ -1,0 +1,94 @@
+/* ===== GitHub Dark Theme ===== */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #58a6ff;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #8b949e;
+}
+
+/* ===== Card ===== */
+.card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 650px;
+}
+
+/* ===== Inputs ===== */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background: #0d1117;
+    color: #c9d1d9;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #58a6ff;
+}
+
+/* ===== Buttons ===== */
+button {
+    padding: 10px 16px;
+    background: #238636;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #2ea043;
+}
+
+button.secondary {
+    background: #21262d;
+    color: #c9d1d9;
+    margin-right: 10px;
+}
+
+button.secondary:hover {
+    background: #30363d;
+}
+
+/* ===== Poll Display ===== */
+.poll {
+    border-top: 1px solid #30363d;
+    padding: 15px 0;
+}
+
+.poll h3 {
+    margin-bottom: 10px;
+    color: #58a6ff;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 6px 0;
+}

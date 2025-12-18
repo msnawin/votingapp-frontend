@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voting App</title>
+    <link rel="stylesheet" href="pollstyle.css">
+</head>
+<body>
+
+<header>
+    <h1>🗳️ Voting App</h1>
+    <p>Create polls • Vote • See results</p>
+</header>
+
+<!-- CREATE POLL -->
+<div class="card">
+    <h2>Create Poll</h2>
+
+    <input type="text" id="question" placeholder="Enter your poll question">
+
+    <div id="options">
+        <input type="text" class="option-input" placeholder="Option 1">
+        <input type="text" class="option-input" placeholder="Option 2">
+    </div>
+
+    <button class="secondary" onclick="addOption()">➕ Add Option</button>
+    <button onclick="createPoll()">Create Poll</button>
+</div>
+
+<!-- POLLS -->
+<div class="card">
+    <h2>Available Polls</h2>
+    <button class="secondary" onclick="loadPolls()">🔄 Refresh</button>
+    <div id="polls"></div>
+</div>
+
+
+<script src="pollapp.js"></script>
+</body>
+</html>
+
